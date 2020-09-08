@@ -2630,9 +2630,6 @@ figcaption {
   .navigation-item:active {
     background-color: #eef0f3;
   }
-  .navigation-items {
-    background-color: #fff;
-  }
   .navigation {
     padding: 25px 30px;
   }
