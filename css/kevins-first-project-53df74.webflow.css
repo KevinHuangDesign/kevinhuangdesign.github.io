@@ -2632,7 +2632,7 @@ figcaption {
   font-size: 64px;
   line-height: 72px;
   font-weight: 800;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-indent: -3px;
 }
 
@@ -2664,8 +2664,8 @@ figcaption {
 
 .link-4 {
   display: inline-block;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 2px;
+  margin-left: 4px;
   font-family: mr-eaves-xl-sans, sans-serif;
   color: #f7cc47;
   font-size: 28px;
@@ -3633,6 +3633,9 @@ figcaption {
     width: 100%;
     max-width: none;
   }
+  .body {
+    overflow: hidden;
+  }
   .heading-jumbo {
     font-size: 24px;
     line-height: 48px;
@@ -3869,7 +3872,6 @@ figcaption {
   }
   .link {
     margin-bottom: 0px;
-    margin-left: 14vw;
     font-size: 20px;
   }
   .slider-copy {
