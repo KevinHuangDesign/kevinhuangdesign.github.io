@@ -1474,9 +1474,9 @@ figcaption {
 }
 
 .section-3 {
-  margin-right: 15vw;
+  margin-right: 5vw;
   margin-bottom: 100px;
-  margin-left: 15vw;
+  margin-left: 5vw;
 }
 
 .div-block-10 {
@@ -2664,8 +2664,8 @@ figcaption {
 
 .link-4 {
   display: inline-block;
-  margin-right: 2px;
-  margin-left: 4px;
+  margin-right: 0px;
+  margin-left: 5px;
   font-family: mr-eaves-xl-sans, sans-serif;
   color: #f7cc47;
   font-size: 28px;
@@ -3561,9 +3561,17 @@ figcaption {
   .section-portfolio-copy.cc-contact {
     padding: 15px;
   }
+  .accelpreview2 {
+    margin-left: 5vw;
+    width: 90vw;
+    height: 112.5vw;
+    margin-top: 20px;
+  }
   .accelpreview {
-    margin-right: 15vw;
-    margin-left: 15vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    width: 90vw;
+    height: 50.5vw;
   }
   .accelpreview.cc-contact {
     padding: 15px;
@@ -3633,9 +3641,6 @@ figcaption {
     width: 100%;
     max-width: none;
   }
-  .body {
-    overflow: hidden;
-  }
   .heading-jumbo {
     font-size: 24px;
     line-height: 48px;
@@ -3649,6 +3654,8 @@ figcaption {
     font-size: 14px;
     line-height: 24px;
     text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
   .section-portfolio {
     display: block;
@@ -3886,7 +3893,7 @@ figcaption {
     margin-left: 15vw;
   }
   .slider-3 {
-    height: 500px;
+    height: 450px;
   }
   .text-block-15 {
     font-size: 16px;
@@ -4059,7 +4066,7 @@ figcaption {
     width: 70vw;
   }
   .section-5 {
-    width: 100vw;
+    width: 85vw;
     height: 20vh;
     margin-right: 0px;
     margin-left: 15vw;
@@ -4085,6 +4092,7 @@ figcaption {
   }
   .link-4 {
     font-size: 20px;
+    margin-left: 4px;
   }
   .text-block-25 {
     margin-left: 15px;
@@ -4101,6 +4109,8 @@ figcaption {
     position: static;
     display: block;
     height: 55vh;
+    width:100vw;
+    overflow: hidden;
   }
   .div-block-59 {
     position: static;
@@ -4126,6 +4136,33 @@ figcaption {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .div-block-62 {
+  transform: none !important;
+  width: 12vh;
+  height: 12vh;
+  bottom: 10vh;
+  right: 15px;
+}
+.div-block-61 {
+  transform: none !important;
+  width: 3vh;
+  height: 3vh;
+  right: 15vw;
+  top: 45vh;
+}
+.div-block-60 {
+  transform: none !important;
+  width: 6vh;
+  height:6vh;
+  left: 20px;
+  top: 45vh;
+}
+.text-block-8{
+  font-size: 14px;
+}
+.text-block-12{
+  font-size: 14px;
+}
 }
 
 #w-node-8f65c72d8fa5-bacd6d4f {
