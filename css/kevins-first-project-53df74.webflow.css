@@ -651,7 +651,7 @@ figcaption {
 .work-image.cc-work-portraitt {
   height: 60vh;
   margin-bottom: 0px;
-  border-bottom: 12px solid #ffe7a7;
+  border-bottom: 12px solid #f7cc47;
   background-image: url('../images/candy.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -660,7 +660,7 @@ figcaption {
 .work-image.cc-work-outdoor {
   height: 60vh;
   margin-bottom: 0px;
-  border-bottom: 12px solid #ffe7a7;
+  border-bottom: 12px solid #f7cc47;
   background-image: url('../images/crater-lake-final.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -2068,7 +2068,7 @@ figcaption {
 
 .div-block-21 {
   height: 56vw;
-  background-image: url('../images/_KHP3341-Edit.jpg');
+  background-image: url('../images/fog.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -2094,7 +2094,7 @@ figcaption {
 
 .link-3 {
   font-family: mr-eaves-xl-sans, sans-serif;
-  color: #ffe7a7;
+  color: #f7cc47;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;
@@ -2868,7 +2868,7 @@ figcaption {
   margin-top: 30vh;
   border-radius: 20px;
   background-color: transparent;
-  background-image: url('../images/webclip.png');
+  background-image: url('../images/favicon.png');
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -2882,7 +2882,7 @@ figcaption {
   margin-top: 5vh;
   border-radius: 20px;
   background-color: transparent;
-  background-image: url('../images/webclip.png');
+  background-image: url('../images/favicon.png');
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -2896,7 +2896,7 @@ figcaption {
   margin-top: 30vh;
   border-radius: 20px;
   background-color: transparent;
-  background-image: url('../images/webclip.png');
+  background-image: url('../images/favicon.png');
   background-position: 0px 0px;
   background-size: cover;
 }
