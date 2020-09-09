@@ -683,6 +683,7 @@ figcaption {
 
 .project-name-link:hover {
   opacity: 0.8;
+  color: #ffe7a7;
 }
 
 .project-name-link:active {
@@ -3262,7 +3263,7 @@ figcaption {
   }
   .div-block-54 {
     display: block;
-    width: 100vw;
+    width: 70vw;
     margin-top: 5vh;
   }
   .div-block-55 {
@@ -3690,7 +3691,8 @@ figcaption {
   }
   .project-name-link {
     margin-bottom: 10px;
-    font-size: 10px;
+    font-size: 12px;
+    margin-left: 0;
   }
   .contact {
     padding-right: 15px;
@@ -4068,9 +4070,10 @@ figcaption {
     font-size: 20px;
   }
   .text-block-23 {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 48px;
     text-indent: 0px;
+    margin-bottom: 10px;
   }
   .text-block-24 {
     font-size: 20px;
@@ -4120,15 +4123,6 @@ figcaption {
   .button-4 {
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-    .div-block-60 {
-    display: none;
-  }
-  .div-block-61 {
-    display: none;
-  }
-  .div-block-62 {
-    display: none;
   }
 }
 
