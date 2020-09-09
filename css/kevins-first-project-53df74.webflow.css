@@ -398,7 +398,7 @@ figcaption {
   flex: 0 auto;
   opacity: 1;
   font-family: mr-eaves-xl-modern, sans-serif;
-  color: #999;
+  color: #333;
   font-size: 14px;
   line-height: 20px;
   font-weight: 700;
@@ -583,6 +583,7 @@ figcaption {
   background-size: cover;
   text-align: center;
   text-decoration: none;
+  border-radius: 12px;
 }
 
 .work-image:hover {
@@ -614,7 +615,7 @@ figcaption {
   height: 40vh;
   margin-bottom: 0px;
   border-bottom: 12px solid #f7cc47;
-  border-radius: 0px;
+  border-radius: 12px;
   background-color: #000;
   background-image: url('../images/accelmockup.jpg');
   background-size: cover;
@@ -4118,6 +4119,7 @@ figcaption {
     height: 49vh;
     margin-top: 0vh;
     margin-left: 10vw;
+      background-image: url('../images/hero2-p-500.png');
   }
     .div-block-63 {
     width: 12px;
