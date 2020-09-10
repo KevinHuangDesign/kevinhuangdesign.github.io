@@ -2924,7 +2924,7 @@ figcaption {
 }
 
 .button-2 {
-  width: 19.5vw;
+  width: 16vw;
   padding-top: 24px;
   padding-bottom: 24px;
   border-radius: 20px;
@@ -2935,19 +2935,111 @@ figcaption {
   transform: translate(0px, 0px);
   font-family: mr-eaves-xl-modern, sans-serif;
   color: #333;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
   text-align: center;
+  margin-left: 2vw;
 }
+.text-block-email {
+  margin-top: 10px;
+  width: 16vw;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 8px 3px rgba(51, 51, 51, 0.2);
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  font-family: mr-eaves-xl-modern, sans-serif;
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.text-block-email2 {
+  width: 15.8vw;
+  padding-top: 24px;
+  margin-top: 1px;
+  margin-left: 1px;
+  padding-bottom: 24px;
+  border-radius: 20px;
+  background-color: #fff;
+  font-family: mr-eaves-xl-modern, sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #f7cc47;
+  display: inline-block;
+}
+.text-block-email:hover {
+  opacity: 0;
+  z-index: 10;
+}
+.text-block-email2:hover {
+  display: inline-block;
+  z-index: 90;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+#myInput {
+  opacity: 0;
+position: absolute;
+}
+
 
 .button-2:hover {
   background-color: #f7cc47;
-  box-shadow: 3px 3px 8px 3px rgba(100, 78, 7, 0.2);
+  box-shadow: 3px 3px 8px 3px rgba(100, 78, 7, 0);
   color: #fff;
+
 }
 
 .button-2-copy {
-  width: 19.5vw;
+  width: 16vw;
   padding-top: 24px;
   padding-bottom: 24px;
   border-radius: 20px;
@@ -2968,8 +3060,8 @@ figcaption {
 }
 
 .button-3 {
-  width: 19.5vw;
-  margin-left: 5vw;
+  width: 16vw;
+  margin-left: 2vw;
   padding-top: 24px;
   padding-bottom: 24px;
   border-radius: 20px;
@@ -2980,20 +3072,20 @@ figcaption {
   transform: translate(0px, 0px);
   font-family: mr-eaves-xl-modern, sans-serif;
   color: #333;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
   text-align: center;
 }
 
 .button-3:hover {
   background-color: #f7cc47;
-  box-shadow: 3px 3px 8px 3px rgba(100, 78, 7, 0.2);
+  box-shadow: 3px 3px 8px 3px rgba(100, 78, 7,0);
   color: #fff;
 }
 
 .button-4 {
-  width: 19.5vw;
-  margin-left: 5vw;
+  width: 16vw;
+  margin-left: 2vw;
   padding-top: 24px;
   padding-bottom: 24px;
   border-radius: 20px;
@@ -3004,14 +3096,14 @@ figcaption {
   transform: translate(0px, 0px);
   font-family: mr-eaves-xl-modern, sans-serif;
   color: #333;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
   text-align: center;
 }
 
 .button-4:hover {
   background-color: #f7cc47;
-  box-shadow: 3px 3px 8px 3px rgba(100, 78, 7, 0.2);
+  box-shadow: 3px 3px 8px 3px rgba(100, 78, 7, 0);
   color: #fff;
 }
 @media screen and (max-width: 991px) {
@@ -3626,6 +3718,8 @@ figcaption {
     .button-2 {
     width: 70vw;
     margin-bottom: 5vh;
+    margin-left: 0vw;
+    font-size: 24px;
   }
   .button-3 {
     width: 70vw;
@@ -3636,6 +3730,16 @@ figcaption {
     width: 70vw;
     margin-bottom: 5vh;
     margin-left: 0vw;
+  }
+  .text-block-email {
+    width: 70vw;
+    margin-left: 0vw;
+    margin-bottom: 5vh;
+  }
+  .text-block-email2 {
+    width: 70vw;
+    margin-left: 0vw;
+    margin-bottom: 5vh;
   }
 }
 
