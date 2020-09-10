@@ -4250,6 +4250,10 @@ position: absolute;
   height: 12vh;
   bottom: 10vh;
   right: 15px;
+      animation-name: bubble3;
+  animation-duration: 3s;
+    animation-delay: .5s;
+  animation-iteration-count: infinite;
 }
 .div-block-61 {
   transform: none !important;
@@ -4257,6 +4261,9 @@ position: absolute;
   height: 3vh;
   right: 15vw;
   top: 45vh;
+    animation-name: bubble1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 .div-block-60 {
   transform: none !important;
@@ -4264,12 +4271,33 @@ position: absolute;
   height:6vh;
   left: 20px;
   top: 45vh;
+      animation-name: bubble2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: .25s;
 }
 .text-block-8{
   font-size: 14px;
 }
 .text-block-12{
   font-size: 14px;
+}
+@keyframes bubble1 {
+  0% {opacity: 100%;}
+  50% {opacity: 0%;width: 1vh;height: 1vh;}
+  100% {opacity: 100%;}
+
+}
+@keyframes bubble2 {
+  0% {opacity: 100%;}
+  50% {opacity: 0%;width: 4vh;height: 4vh;}
+  100% {opacity: 100%;}
+}
+@keyframes bubble3 {
+  0% {opacity: 100%;}
+  50% {opacity: 0%;width: 10vh;height: 10vh;}
+  100% {opacity: 100%;}
+
 }
 }
 
