@@ -1,3 +1,5 @@
+
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -164,6 +166,15 @@ figcaption {
   line-height: 32px;
   font-weight: 500;
   text-transform: uppercase;
+}
+#accelhero {
+  height: 70vh;
+  background-image: url("../images/accelmockup.jpg");
+  background-color: #6f988b;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .rich-text {
@@ -583,7 +594,7 @@ figcaption {
   background-size: cover;
   text-align: center;
   text-decoration: none;
-  border-radius: 12px;
+  border-radius: 24px;
 }
 
 .work-image:hover {
@@ -669,14 +680,14 @@ figcaption {
 
 .project-name-link {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-top: 10px;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: mr-eaves-xl-modern, sans-serif;
   color: #333;
   font-size: 12px;
-  line-height: 34px;
+  line-height: 30px;
   font-weight: 700;
   letter-spacing: 1px;
   text-decoration: none;
@@ -1620,7 +1631,7 @@ figcaption {
   font-family: mr-eaves-xl-sans, sans-serif;
   color: #333;
   font-size: 28px;
-  line-height: 40px;
+  line-height: 32px;
   font-weight: 400;
   text-decoration: none;
 }
@@ -2606,7 +2617,7 @@ figcaption {
   z-index: 50;
   display: inline-block;
   width: 35vw;
-  height: 90vh;
+  height: 88vh;
   margin-right: 0vw;
   margin-left: 15vw;
 }
@@ -2825,7 +2836,7 @@ figcaption {
   position: absolute;
   display: inline-block;
   width: 35vw;
-  height: 90vh;
+  height: 88vh;
   margin-right: 15vw;
 }
 
