@@ -626,7 +626,7 @@ figcaption {
   height: 40vh;
   margin-bottom: 0px;
   border-bottom: 12px solid #f7cc47;
-  border-radius: 12px;
+  border-radius: 24px;
   background-color: #000;
   background-image: url('../images/accelmockup.jpg');
   background-size: cover;
@@ -2440,6 +2440,17 @@ figcaption {
   background-position: 50% 100%;
   background-size: cover;
 }
+
+.div-block-99 {
+  display: inline-block;
+  width: 23vw;
+  height: 42vw;
+  margin-left: 0vw;
+  background-color: #9c6161;
+  background-image: url('../images/layout.gif');
+  background-position: 50% 100%;
+  background-size: cover;
+}
 .div-block-41 {
   display: inline-block;
   width: 22.5vw;
@@ -4178,6 +4189,14 @@ position: absolute;
     margin-bottom: 40px;
   }
   .div-block-40 {
+    display: block;
+    width: 92vw;
+    height: 168vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5vh;
+  }
+   .div-block-99 {
     display: block;
     width: 92vw;
     height: 168vw;
