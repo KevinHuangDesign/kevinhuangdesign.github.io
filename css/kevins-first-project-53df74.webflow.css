@@ -3208,8 +3208,11 @@ position: absolute;
   background-size: cover;
 }
 .lilyfat {
-  height: 20vh;
+  height: 10vh;
   width: 100vw;
+}
+.swiper {
+  visibility: hidden;
 }
 
 
@@ -4493,12 +4496,7 @@ position: absolute;
   height: 50vw;
   margin-left: 0vw;
 }
-.w-slider-dot w-active {
-  visibility: hidden !important;
-}
-.w-slider-dot {
-  visibility: hidden !important;
-}
+
 .text-block-27 {
   visibility: hidden;
 }
