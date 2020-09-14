@@ -4403,6 +4403,8 @@ position: absolute;
     height: 55vh;
     width:100vw;
     overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
   }
   .div-block-59 {
     position: static;
