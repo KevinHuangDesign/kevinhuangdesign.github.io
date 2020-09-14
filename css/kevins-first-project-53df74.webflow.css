@@ -3130,6 +3130,89 @@ position: absolute;
   box-shadow: 3px 3px 8px 3px rgba(100, 78, 7, 0);
   color: #fff;
 }
+.slider-7 {
+  width: 70vw;
+  height: 35vw;
+  margin-left: 15vw;
+}
+
+.icon-3 {
+  color: #707070;
+}
+
+.icon-4 {
+  color: #707070;
+}
+
+.slide-13 {
+  background-image: url('../images/timepicker.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slide-14 {
+  background-image: url('../images/problem.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slide-15 {
+  background-image: url('../images/oldproblem.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.text-block-27 {
+  margin-top: 32vw;
+  margin-right: auto;
+  margin-left: 5vw;
+  font-family: mr-eaves-xl-sans, sans-serif;
+  text-align: left;
+}
+
+.slider-8 {
+  width: 70vw;
+  height: 35vw;
+  margin-left: 15vw;
+}
+
+.mask {
+  background-image: url('../images/styleguide.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.icon-5 {
+  color: #707070;
+}
+
+.icon-6 {
+  color: #707070;
+}
+
+.slide-16 {
+  background-image: url('../images/styleguide.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slide-17 {
+  background-image: url('../images/home.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slide-18 {
+  background-image: url('../images/sketch.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.lilyfat {
+  height: 20vh;
+  width: 100vw;
+}
+
+
 @media screen and (max-width: 1100px) {
   .div-block-59 {
     width: 35vh;
@@ -4400,7 +4483,27 @@ position: absolute;
   100% {opacity: 100%;}
 
 }
+.slider-8 {
+  width: 100vw;
+  height: 50vw;
+  margin-left: 0vw;
 }
+.slider-7 {
+  width: 100vw;
+  height: 50vw;
+  margin-left: 0vw;
+}
+.w-slider-dot w-active {
+  visibility: hidden !important;
+}
+.w-slider-dot {
+  visibility: hidden !important;
+}
+.text-block-27 {
+  visibility: hidden;
+}
+}
+
 
 #w-node-8f65c72d8fa5-bacd6d4f {
   -ms-grid-column: 1;
