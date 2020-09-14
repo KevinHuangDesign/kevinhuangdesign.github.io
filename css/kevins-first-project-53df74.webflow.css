@@ -3211,8 +3211,6 @@ position: absolute;
   height: 10vh;
   width: 100vw;
 }
-.swiper {
-  visibility: hidden;
 }
 
 
@@ -4499,6 +4497,12 @@ position: absolute;
 
 .text-block-27 {
   visibility: hidden;
+}
+.lilyfat {
+  height: 5vh;
+}
+.slider-5 {
+  margin-bottom: 5vh;
 }
 }
 
