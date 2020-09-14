@@ -3826,10 +3826,10 @@ position: absolute;
     margin-top: 20px;
   }
   .accelpreview {
-    margin-right: 5vw;
-    margin-left: 5vw;
-    width: 90vw;
-    height: 50.5vw;
+    margin-right: 0vw;
+    margin-left: 0vw;
+    width: 100vw;
+    height: 49.5vw;
   }
   .accelpreview.cc-contact {
     padding: 15px;
