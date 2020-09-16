@@ -2993,9 +2993,8 @@ figcaption {
   margin-left: 1px;
   padding-bottom: 24px;
   border-radius: 20px;
-  background-color: #fff;
   font-family: mr-eaves-xl-modern, sans-serif;
-  color: white;
+  color: #333;
   font-size: 20px;
   font-weight: 700;
   text-align: center;
@@ -3058,7 +3057,7 @@ position: absolute;
 .button-2:hover {
   background-color: #f7cc47;
   box-shadow: 3px 3px 8px 3px rgba(100, 78, 7, 0);
-  color: #fff;
+  color: #333;
 
 }
 
@@ -3104,7 +3103,7 @@ position: absolute;
 .button-3:hover {
   background-color: #f7cc47;
   box-shadow: 3px 3px 8px 3px rgba(100, 78, 7,0);
-  color: #fff;
+  color: #333;
 }
 
 .button-4 {
@@ -3128,7 +3127,7 @@ position: absolute;
 .button-4:hover {
   background-color: #f7cc47;
   box-shadow: 3px 3px 8px 3px rgba(100, 78, 7, 0);
-  color: #fff;
+  color: #333;
 }
 .slider-7 {
   width: 70vw;
