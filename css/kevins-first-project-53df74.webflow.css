@@ -3206,6 +3206,12 @@ position: absolute;
   background-position: 0px 0px;
   background-size: cover;
 }
+.slide-99 {
+  background-image: url('../images/widget.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
 .lilyfat {
   height: 10vh;
   width: 100vw;
