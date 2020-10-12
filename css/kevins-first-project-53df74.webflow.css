@@ -176,6 +176,15 @@ figcaption {
   background-repeat: no-repeat;
 
 }
+#trojanhero {
+  height: 80vh;
+  background-image: url("../images/trojan.jpg");
+  background-color: #6f988b;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
 
 .rich-text {
   width: 70%;
@@ -608,7 +617,6 @@ figcaption {
 .work-image.cc-work-1 {
   height: 40vh;
   margin-bottom: 0px;
-  border-bottom: 12px solid #f7cc47;
   background-image: url('../images/encorecover.jpg');
   background-size: cover;
 }
@@ -616,7 +624,6 @@ figcaption {
 .work-image.cc-work-2 {
   height: 40vh;
   margin-bottom: 0px;
-  border-bottom: 12px solid #f7cc47;
   background-image: url('../images/sushimain.jpg');
   background-position: 100% 50%;
   background-size: cover;
@@ -625,7 +632,6 @@ figcaption {
 .work-image.cc-work-4 {
   height: 40vh;
   margin-bottom: 0px;
-  border-bottom: 12px solid #f7cc47;
   border-radius: 24px;
   background-color: #000;
   background-image: url('../images/accelmockup.jpg');
@@ -637,15 +643,13 @@ figcaption {
 .work-image.cc-work-5 {
   height: 40vh;
   margin-bottom: 0px;
-  border-bottom: 12px solid #f7cc47;
-  background-image: url('../images/Asset-44x.png');
+  background-image: url('../images/notenough.jpg');
   background-size: cover;
 }
 
 .work-image.cc-work-usps {
   height: 40vh;
   margin-bottom: 0px;
-  border-bottom: 12px solid #f7cc47;
   background-image: url('../images/uspshero.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -654,7 +658,6 @@ figcaption {
 .work-image.cc-work-rng {
   height: 40vh;
   margin-bottom: 0px;
-  border-bottom: 12px solid #f7cc47;
   background-image: url('../images/ring.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -663,7 +666,6 @@ figcaption {
 .work-image.cc-work-portraitt {
   height: 60vh;
   margin-bottom: 0px;
-  border-bottom: 12px solid #f7cc47;
   background-image: url('../images/candy.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -672,7 +674,6 @@ figcaption {
 .work-image.cc-work-outdoor {
   height: 60vh;
   margin-bottom: 0px;
-  border-bottom: 12px solid #f7cc47;
   background-image: url('../images/crater-lake-final.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -1374,6 +1375,14 @@ figcaption {
   font-weight: 800;
 }
 
+.heading-color-sincerity {
+  margin-bottom: 25px;
+  font-family: mr-eaves-xl-modern, sans-serif;
+  color: #111;
+  font-size: 88px;
+  font-weight: 800;
+}
+
 .text-section {
   margin-right: 30vw;
   margin-bottom: 100px;
@@ -1958,6 +1967,20 @@ figcaption {
   -ms-transform-origin: 0% 50%;
   transform-origin: 0% 50%;
 }
+.progress-sincerity {
+  position: fixed;
+  z-index: 100;
+  display: block;
+  width: 100%;
+  height: 8px;
+  margin-top: 0px;
+  background-color: #900;
+  -webkit-perspective-origin: 0% 50%;
+  perspective-origin: 0% 50%;
+  -webkit-transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+}
 
 .progress-sushi {
   position: fixed;
@@ -2385,6 +2408,74 @@ figcaption {
   height: 50vw;
   margin: 100px 30vw;
 }
+.critleft {
+  display: inline-block;
+  width: 33.75vw;
+  height: 42.1875vw;
+  margin-left: 15vw;
+    margin-bottom: 2.5vw;
+}
+.critright {
+  display: inline-block;
+  width: 33.75vw;
+  height: 42.1875vw;
+  margin-left: 2.5vw;
+  margin-bottom: 2.5vw;
+}
+.critfull {
+  display: inline-block;
+  width: 70vw;
+  height: 56vw;
+  margin-left: 15vw;
+  margin-bottom: 2.5vw;
+}
+.crit1 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/critique1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.crit2 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/critique2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.crit3 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/critique3.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.crit4 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/critique4.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.crit5 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/critique5.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.crit6 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/critique6.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+
+
+
+
 
 
 .accelpreview.cc-contact {
@@ -3129,6 +3220,28 @@ position: absolute;
   box-shadow: 3px 3px 8px 3px rgba(100, 78, 7, 0);
   color: #333;
 }
+.button-9 {
+  width: 25vw;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 8px 3px rgba(51, 51, 51, 0.2);
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  font-family: mr-eaves-xl-modern, sans-serif;
+  color: #990000;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button-9:hover {
+  background-color: #990000;
+  box-shadow: 3px 3px 8px 3px rgba(100, 78, 7, 0);
+  color: #fff;
+}
 .slider-7 {
   width: 70vw;
   height: 35vw;
@@ -3789,30 +3902,7 @@ position: absolute;
     .work-image{
       border-radius: 48px;
     }
-  .work-image.cc-work-1 {
-  border-bottom: 36px solid #f7cc47;
-}
-  .work-image.cc-work-2 {
-  border-bottom: 36px solid #f7cc47;
-}
-  .work-image.cc-work-4 {
-  border-bottom: 36px solid #f7cc47;
-}
-  .work-image.cc-work-5 {
-  border-bottom: 36px solid #f7cc47;
-}
-  .work-image.cc-work-rng {
-  border-bottom: 36px solid #f7cc47;
-}
-  .work-image.cc-work-outdoor {
-  border-bottom: 36px solid #f7cc47;
-}
-  .work-image.cc-work-portraitt {
-  border-bottom: 36px solid #f7cc47;
-}
-  .work-image.cc-work-usps {
-  border-bottom: 36px solid #f7cc47;
-}
+
 .div-block-53-copy {
   height: 40px;
 }
