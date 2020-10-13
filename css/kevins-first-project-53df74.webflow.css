@@ -4629,8 +4629,10 @@ position: absolute;
     line-height: 24px;
   }
   .link {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    margin-top: 0px;
     font-size: 20px;
+      font-weight: 700;
   }
   .slider-copy {
     margin-right: 15vw;
@@ -4852,6 +4854,7 @@ position: absolute;
     font-size: 16px;
     margin-right: 0vw;
     margin-left: 0vw;
+    color:#333;
   }
   .div-block-51 {
     font-size: 80px;
