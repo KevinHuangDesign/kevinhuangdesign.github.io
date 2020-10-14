@@ -2514,7 +2514,7 @@ figcaption {
 }
 .leftabout {
   margin-left: 15vw;
-  padding-top: 18vh;
+  padding-top: 8vh;
   width: 35vw;
   height: 70vh;
   display: inline-block;
@@ -2524,6 +2524,7 @@ figcaption {
   width: 35vw;
   height: 70vh;
   padding-left: 5vw;
+  margin-bottom: 10vh;
 }
 
 .fullaccel {
@@ -2861,8 +2862,8 @@ figcaption {
   height: auto;
   font-family: mr-eaves-xl-sans, sans-serif;
   color: #333;
-  font-size: 64px;
-  line-height: 72px;
+  font-size: 48px;
+  line-height: 60px;
   font-weight: 800;
   letter-spacing: 1px;
   text-indent: -3px;
