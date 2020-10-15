@@ -670,7 +670,7 @@ figcaption {
 .work-image.cc-work-rng {
   height: 40vh;
   margin-bottom: 0px;
-  background-image: url('../images/ring.jpg');
+  background-image: url('../images/asset-44x.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -2875,8 +2875,8 @@ figcaption {
   margin-right: 5vh;
   font-family: mr-eaves-xl-sans, sans-serif;
   color: #999;
-  font-size: 28px;
-  line-height: 40px;
+  font-size: 32px;
+  line-height: 48px;
   font-weight: 400;
 }
 
