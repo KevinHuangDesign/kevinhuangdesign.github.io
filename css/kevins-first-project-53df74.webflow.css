@@ -609,8 +609,7 @@ figcaption {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  background-color: #f4f4f4;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-color: black;
   background-position: 50% 50%;
   background-size: cover;
   text-align: center;
@@ -619,7 +618,7 @@ figcaption {
 }
 
 .work-image:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .work-image:active {
@@ -631,6 +630,9 @@ figcaption {
   margin-bottom: 0px;
   background-image: url('../images/encorecover.jpg');
   background-size: cover;
+}
+.work-image.cc-work-1:hover {
+  background-image: url('../images/encoreprogress.gif');
 }
 
 .work-image.cc-work-2 {
@@ -651,6 +653,9 @@ figcaption {
   -webkit-transition-property: none;
   transition-property: none;
 }
+.work-image.cc-work-4:hover {
+  background-image: url('../images/producthero.gif');
+}
 
 .work-image.cc-work-5 {
   height: 40vh;
@@ -670,7 +675,7 @@ figcaption {
 .work-image.cc-work-rng {
   height: 40vh;
   margin-bottom: 0px;
-  background-image: url('../images/asset-44x.png');
+  background-image: url('../images/pig.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1660,6 +1665,7 @@ figcaption {
 
 .link:hover {
   opacity: 1;
+  color: #f7cc47;
   background-clip: content-box;
 }
 
